@@ -1,3 +1,7 @@
-.text {
-  background-color:yellow;
+body {
+  animation: color-change 10s infinite alternate;
+}
+@keyframes color-change {
+  0% { background-color: "#696969"; }
+  100% { background-color: "black"; }
 }
