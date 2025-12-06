@@ -1,7 +1,12 @@
 body {
   animation: color-change 10s infinite alternate;
 }
+
 @keyframes color-change {
   0% { background-color: "#696969"; }
   100% { background-color: "black"; }
+}
+
+.token.api-class {
+  color:red;
 }
