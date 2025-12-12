@@ -10,13 +10,18 @@
     <h1>setPosition</h1>
     <pre class="line-numbers">
       <code class="language-javascript">
-      api.setPosition(entityId,x,y,z)<br>api.setPosition(playerId,[x,y,z])
+      api.setPosition(entityId,x,y,z)
+      api.setPosition(playerId,[x,y,z])
       </code>
     </pre>
     <h2>説明</h2>
-    エンティティを座標指定で移動させます
+    <h3>引数</h3>
+    <ul>
+      <li>entityId - 移動させるエンティティのid</li>
+      <li>x,y,z　または　[x,y,z] - 移動先の座標</li>
+    </ul>
     <h3>jsdoc</h3>
-    <pre class="line-numbers">
+    <pre>
       <code class="language-javascript">
 /**
  * Set position of a player / entity.
