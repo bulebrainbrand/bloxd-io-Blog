@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family:"Avenir" "Shorai Sans";
+}
+
 .light {
   color:#000;
   background-color:#fff;
