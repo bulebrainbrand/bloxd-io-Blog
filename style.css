@@ -73,3 +73,24 @@ h3::after {
 h1 {
   font-size: 1.8rem;
 }
+
+
+header {
+  font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #000;
+  animation: background-color-fade 30s linear infinite;
+}
+
+@keyframes background-color-fade {
+  0% {
+    background-color: #5585ff;
+  }
+  
+  50% {
+    background-color: #aaccff;
+  }
+  
+  100% {
+    background-color: #5585ff;
+  }
+}
