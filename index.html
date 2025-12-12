@@ -5,15 +5,32 @@
   <link href="prism.css" rel="stylesheet" /> 
   <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<body>
-  <p>hello github.io</p>
-  <pre class="line-numbers">
-    <code class="language-javascript">
-    function greet(name) {
-      api.log(`Hello, ${name}!`);
-    }
-    </code>
-  </pre>
+<body class="light">
+  <div class="main">
+    <h1>setPosition</h1>
+    <pre class="line-numbers">
+      <code class="language-javascript">
+      api.setPosition(entityId,x,y,z)<br>api.setPosition(playerId,[x,y,z])
+      </code>
+    </pre>
+    <h2>説明</h2>
+    エンティティを座標指定で移動させます
+    <h3>jsdoc</h3>
+    <pre class="line-numbers">
+      <code class="language-javascript">
+/**
+ * Set position of a player / entity.
+ *
+ * @param {EntityId} entityId
+ * @param {number | number[]} x - Can also be an array, in which case y and z shouldn't be passed
+ * @param {number} [y]
+ * @param {number} [z]
+ * @returns {void}
+ */
+setPosition(entityId, x, y, z)
+      </code>
+    </pre>
+  </div>
   <script src="prism.js"></script> 
   <script src="app.js"></script>
 </body>
