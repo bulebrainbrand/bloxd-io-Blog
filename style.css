@@ -14,7 +14,7 @@
 }
 
 body {
-  animation: background-color-fade 10s linear infinite;
+  animation: background-color-fade 60s linear infinite;
   color: #fff;
 }
 
