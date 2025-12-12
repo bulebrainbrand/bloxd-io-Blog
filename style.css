@@ -1,6 +1,21 @@
 
+@keyframes background-color-fade {
+  0% {
+    background-color: #000;
+  }
+  
+  50% {
+    background-color: #666;
+  }
+  
+  100% {
+    background-color: #000;
+  }
+}
+
 body {
-  background-color: black;
+  animation: background-color-fade 10s linear infinite;
+  color: #fff;
 }
 
 
